@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Producto</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px; /* Espacio entre imágenes */
+            margin-top: 20px;
+        }
+        .container2 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px; /* Espacio entre imágenes */
+            margin-top: 20px;
+        }
+        .container3 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px; /* Espacio entre imágenes */
+            margin-top: 20px;
+        }
+        .profile-card {
+            width: 300px;
+            height: 200px;
+            text-align: center;
+            box-shadow: #ccc 5px 3px 10px;
+            border-radius: 5%;
+            background-color: white; /* Color de fondo predeterminado */
+            transition: background-color 0.3s ease; /* Transición suave */
+            margin: 10px;
+        }
+        
+      
+        .profile-card:hover {
+            background-color: rgb(80, 170, 239); /* Color de fondo cuando se pasa el cursor */
+        }
+        .profile-img {
+            width: 170px;
+            height: 120px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        .header {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .card-description {
+            font-size: 14px;
+        }
+        
+        .profile-name {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            margin-top: 25px
+        }
+        
+        .profile-bio {
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            
+        }
+        
+        .profile-img {
+            padding: 10px;
+            margin: 0.01px;
+            width: 170px;
+            height: 120px;
+        }
+        .profile-imgClima {
+            padding: 10px;
+            margin: 0.01px;
+            width: 170px;
+            height: 120px;
+        }
+        .profile-imgFutbol {
+            padding: 10px;
+            margin: 0.01px;
+            width: 170px;
+            height: 120px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <figure>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVgV4mCpZVYonxvn4XWNedWQEvxABmUq8F7w&s"
+           alt="Logo">
+          
+        </figure>
+        <section class ="container">
+       <div>
+           <ul>
+           <li>MANTENTE INFORMADO CON EL FINANCIERO <BR>SÍGUENOS EN NUESTRA PAÁGINA DE FACEBOOK Y TWITTER</li>
+       </ul>
+       </div>
+   </section>
+   </nav>
+
+    <div class="container">
+        <div class="profile-card">
+            <img src="https://www.elsoldemorelia.com.mx/local/m435y8-los-originales-de-san-juan/alternates/LANDSCAPE_768/Los%20Originales%20de%20San%20Juan" alt="Foto" class="profile-img">
+            <div class="profile-content">
+                <p class="profile-bio">¿Te gustan los corridos? Habrá baile con Los Originales de San Juan en Charo</p>
+            </div>
+        </div>
+        <div class="profile-card">
+            <a href="https://www.youtube.com/watch?v=9adTSzfbxZI" target="_blank">
+                <img src="https://www.elsoldemorelia.com.mx/local/8zmoba-pjf-michoacan-a-la-cdmx/ALTERNATES/LANDSCAPE_1140/PJF%20Michoac%C3%A1n%20a%20la%20CDMX" alt="PJF" class="profile-img">
+            </a>
+            <div class="profile-content">
+                <p class="profile-bio">Manifestación PJF</p>   
+       </div>
+        </div>
+        <div class="profile-card">
+            <a href="https://www.facebook.com/veterinarialastorres/videos/-veterinaria-las-torres-24-horas-vis%C3%ADtanos-en-av-las-torres-7618-colonia-los-alc/1137081920393795/?locale=ms_MY" target="_blank">
+                <img src="https://content.nationalgeographic.com.es/medio/2023/11/29/golden-retriever-corriendo_7a50f15e_231129131211_800x800.jpg" alt="Perro" class="profile-img">
+            </a>
+            <div class="profile-content">
+                <p class="profile-bio">Visitanos en Veterinaria las Torres</p>   
+       </div>
+        </div>
+
+        <div class="profile-card">
+            <a href="https://youtu.be/sTmpbEYUba0" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlrUh-dJqFT9aN4NajI14cp7wvL_F3t92aFg&s" alt="Carreras" class="profile-img">
+            </a>
+            <div class="profile-content">
+                <p class="profile-bio">Resultados Formula 1</p>   
+       </div>
+        </div>
+    </div>
+    
+
+
+
+    <div class="container2">
+        <div class="profile-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi2h6OW0ZCGegv1MkdfmC07YGKFI1vJ2oSmw&s" alt="Foto" class="profile-imgClima">
+            <div class="profile-content">
+                 <p class="profile-bio">Reporte del Clima</p>   
+        </div>
+        </div>
+        <div class="profile-card">
+            <img src="https://media.c5n.com/p/728eef98268fad181ab189071a87738a/adjuntos/326/imagenes/000/285/0000285753/303x175/smart/san-lorenzo-vs-talleres-fecha-12-argentina-primera-division.png" alt="Foto" class="profile-imgFutbol">
+            <div class="profile-content">
+                 <p class="profile-bio">Proximos partidos de Futbol. No te pierdas las semifinales</p>
+        </div>
+    </div>
+        <div class="profile-card">
+            <a href="https://www.elfinanciero.com.mx/nacional/2024/09/09/sheinbaum-se-mudara-a-palacio-nacional-asi-es-el-departamento-donde-vive-amlo-fotos/" target="_blank">
+                <img src="https://www.elfinanciero.com.mx/resizer/v2/2Q5F3QFGUBHOPLUQROJVLR7POA.jpeg?smart=true&auth=20f9690b66d2884b963bb2d5b7a20580cb7883cea9c235fcecb896e91e8457c7&width=1200&height=799" alt="Perro" class="profile-img">
+            </a>
+            <div class="profile-content">
+                <p class="profile-bio">Sheinbaum se mudará a Palacio Nacional</p>   
+       </div>
+        </div>
+
+        <div class="profile-card">
+                <img src="https://www.elfinanciero.com.mx/resizer/v2/E7PBNTCTXRETVK47AXXAXR3W5Q.jpg?smart=true&auth=56d8746788ad81f0d64bf68fdb8cffd126f2ac99dd2443311cd8018bffaec0e0&width=1600&height=900" alt="Carreras" class="profile-img">
+            
+            <div class="profile-content">
+                <p class="profile-bio">¿Quién es el líder en La Casa de los Famosos México 2024 ?</p>   
+       </div>
+        </div>
+        
+    </div>
+
+
+    <div class="container3">
+        <div class="profile-card">
+            <img src="https://image.roku.com/developer_channels/prod/076da84e331e69e993519b4f92913acff8f5372793d5141a937cbfbd30376f2c.png" alt="Foto" class="profile-img">
+            <div class="profile-content">
+                 <p class="profile-bio">EL FINANCIERO</p>   
+        </div>
+        </div>
+        <div class="profile-card">
+            <img src="https://cdn1.celebritax.com/sites/default/files/styles/watermark_100/public/1615659379-icrt-califica-excelente-resultado-encuesta-seccion-humberto-lopez-noticiero.jpg" alt="Foto" class="profile-img">
+            <div class="profile-content">
+                 <p class="profile-bio">Noticiero 9:00pm</p>
+        </div>
+    </div>
+        <div class="profile-card">
+                <img src="https://vivirenelpoblado.com/wp-content/uploads/2021/11/Un-festival-para-disfrutar-la-comida-mexicana.jpeg" alt="Comida" class="profile-img">
+            <div class="profile-content">
+                <p class="profile-bio">Ven al Festival de Comida Mexicana</p>   
+       </div>
+        </div>
+
+        <div class="profile-card">
+                <img src="https://th.bing.com/th/id/OIP.JoisMjw2mjvi99SsaSoblAHaL1?rs=1&pid=ImgDetMain" alt="NYX" class="profile-img">
+            
+            <div class="profile-content">
+                <p class="profile-bio">50% EN TODOS LOS PRODUCTOS NYX EXCLUSIVO ONLINE</p>   
+       </div>
+        </div>
+        
+    </div>
+
+   
+    </div>
+  
+
+
+</div>
+</body>
+</html>
