@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2</title>
+    <style>
+        body {
+            background-color: #000;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        .main-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .text-section {
+            max-width: 50%;
+        }
+
+        .text-section h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .text-section h2 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .text-section h3 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .text-section p {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .img-right {
+            width: 400px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .solutions-section {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+            gap: 20px;
+        }
+
+        .solution-card {
+            background-color: #FF6600; 
+            color: white;
+            width: 250px;
+            height: 150px;
+            padding: 20px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .solution-card:nth-child(2) {
+            background-color: #F2F2F2;
+            color: black;
+        }
+
+        .solution-card:nth-child(3) {
+            background-color: #FFCC00;
+        }
+
+        .solution-card p {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .solution-card strong {
+            font-size: 36px;
+            margin-top: 10px;
+        }
+
+        .circle-images {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .circle-images img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-section">
+        <div class="text-section">
+            <h1>UNLIMITED</h1>
+            <h2>PRETENTIOUS</h2>
+            <h3>IDEAS</h3>
+            <div class="circle-images">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Person 1">
+                <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Person 2">
+                <img src="https://randomuser.me/api/portraits/women/46.jpg" alt="Person 3">
+            </div>
+            <p>OUR SOLUTIONS &nbsp;&nbsp;&nbsp; WE PROVIDE THE FULL FUNNEL APPROACH</p>
+        </div>
+        <img src="https://thumbs.dreamstime.com/b/retrato-de-las-mujeres-de-negocios-de-pensamiento-en-vidrios-51482076.jpg" alt="Business Woman" class="img-right">
+    </div>
+
+    <div class="solutions-section">
+        <div class="solution-card">
+            <p>UNIQUE BUSINESS SOLUTIONS</p>
+        </div>
+        <div class="solution-card">
+            <p>OUR CASE STUDIES</p>
+        </div>
+        <div class="solution-card">
+            <p>SUCCESSFUL PROJECTS</p>
+            <strong>700+</strong>
+        </div>
+    </div>
+
+</body>
+</html>
