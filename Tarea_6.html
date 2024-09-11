@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+</head>
+<style>
+    a {
+        text-decoration: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        height: 100px;
+        box-sizing: border-box;
+        background-color: #333;
+    }
+
+    .nav_list_logo {
+        list-style: none;
+        display: inline-block;
+    }
+
+    .nav_list_logo > a > img {
+        width: 100px;
+        border-radius: 10px;
+    }
+
+    .nav_list_links {
+        display: inline-block;
+    }
+
+    .nav__item { 
+        list-style: none;
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .nav__item > a {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .nav__item > a:hover { 
+        color: rgb(80, 199, 254);
+    }
+
+    .header__content {
+        background-image: url("https://plus.unsplash.com/premium_photo-1661775756810-82dbd209fc95?q=80&w=3454&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-size: cover;
+        padding: 100px 20px;
+        text-align: center;
+        color: white;
+    }
+
+    .header__title { 
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .header__description {
+        font-size: 1.2rem;
+        margin: 20px 0;
+    }
+
+    .header__buttons { 
+        margin-top: 30px;
+    }
+
+    .header__button {
+        background-color: #fff;
+        padding: 10px 20px;
+        color: #000;
+        border-radius: 5px;
+        margin: 0 10px;
+        font-weight: bold;
+    }
+
+    .header__button:hover { 
+        background-color: #dfdfdf;
+        color: rgb(80, 199, 254);
+    }
+
+    .projects__list {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+    }
+
+    .project {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+    }
+
+    .project:hover {
+        transform: scale(1.05);
+    }
+
+    .project__image {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .project__description {
+        font-size: 1rem;
+        color: #333;
+    }
+
+    .home {
+        padding: 50px 20px;
+        text-align: center;
+        background-color: #f0f0f0;
+    }
+
+    .section__title {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .section__description {
+        font-size: 1.1rem;
+        color: #555;
+    }
+
+    @media (max-width: 768px) {
+        .projects__list {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            width: 90%;
+        }
+
+        .header__title {
+            font-size: 2.5rem;
+        }
+
+        .header__description {
+            font-size: 1rem;
+        }
+    }
+</style>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav_list_logo"><a href="#home">
+                <img src="https://images.unsplash.com/photo-1496200186974-4293800e2c20?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Logo">
+                </a></li>
+                <ul class="nav_list_links">
+                    <li class="nav__item"><a href="#home">Inicio</a></li>
+                    <li class="nav__item"><a href="#projects">Proyectos</a></li>
+                    <li class="nav__item"><a href="#skills">Habilidades</a></li>
+                    <li class="nav__item"><a href="#contact">Contacto</a></li>
+                </ul>
+            </ul>
+        </nav>
+        <div class="header__content">
+            <h1 class="header__title">Hola, soy Juan Medina</h1>
+            <p class="header__description">Aquí puedes ver todos mis proyectos que he realizado y las empresas con las que he colaborado.</p>
+            <div class="header__buttons">
+                <a href="#projects" class="header__button">Ver más</a>
+                <a href="#contact" class="header_button header_button--contact">Contacto</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="section home">
+        <div class="section__content">
+            <h2 class="section__title">Bienvenido a mi Portafolio</h2>
+            <p class="section__description">Aquí puedes ver mis proyectos, habilidades, y formas de contacto.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <h2 class="section_title projects_title">Proyectos</h2>
+        <div class="projects__list">
+            <div class="project">
+                <img src="https://internetretailing.net/wp-content/uploads/2022/05/amazon-homepage-screenshot.png" alt="Proyecto 1" class="project__image">
+                <p class="project__description">Descripción del Proyecto 1</p>
+            </div>
+            <div class="project">
+                <img src="https://cdn.taggbox.com/v7/taggbox.com/blog/wp-content/uploads/2020/12/Pinterest-1.png" alt="Proyecto 2" class="project__image">
+                <p class="project__description">Descripción del Proyecto 2</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <h2 class="section_title skills_title">Habilidades</h2>
+        <div class="skills__list">
+            <div class="skills__item">
+                <h3 class="skills__name">HTML</h3>
+                <p class="skills__description">Dominio avanzado en HTML5, capaz de estructurar y crear contenido web accesible y semántico.</p>
+            </div>
+            <div class="skills__item">
+                <h3 class="skills__name">CSS</h3>
+                <p class="skills__description">Experiencia en CSS3, incluyendo diseño responsivo y técnicas avanzadas como Grid y Flexbox.</p>
+            </div>
+            <div class="skills__item">
+                <h3 class="skills__name">JavaScript</h3>
+                <p class="skills__description">Familiaridad con JavaScript ES6+, desarrollo de aplicaciones interactivas y uso de frameworks como React.</p>
+            </div>
+            <div class="skills__item">
+                <h3 class="skills__name">React</h3>
+                <p class="skills__description">Experiencia en el desarrollo de aplicaciones con React, incluyendo Hooks y gestión del estado con Redux.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__text">©️ 2024 Programación Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
