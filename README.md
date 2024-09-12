@@ -1,5 +1,5 @@
-## Hi there 👋
 ![Captura tarea7](https://github.com/KarlaBucio/karlabucio/blob/tarea7/Unidad2/Captura%20de%20pantalla%20Tarea7%20U2.png)
+![CapturaTarea7](https://github.com/KarlaBucio/karlabucio/blob/tarea7/Unidad2/Captura%20de%20pantalla%20Tarea7U2.png)
 <!--
 **KarlaBucio/karlabucio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
