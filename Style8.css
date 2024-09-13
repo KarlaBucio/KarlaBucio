@@ -1,0 +1,65 @@
+.container{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    box-shadow: #ccc 5px 3px 10px;
+    border-radius: 2%;
+}
+.profile-img{
+    width: 350px;
+    height: 200px;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+.texto{
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    width: 75px;
+    height: 20px;
+border-radius: 10px;
+background-color: rgba(222, 24, 163, 0.955);
+margin: 22px;
+}
+.Texto1{
+    text-align: left;
+    margin: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto2{
+text-align: justify;
+color: #aea6a6;
+margin-left:  22px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.profile{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    padding: 22px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.dia {
+    color: #aea6a6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+}
