@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finotic Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f7fb;
+        }
+        .container {
+            display: flex;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 900px;
+            height: 800px;
+        }
+        .left {
+            background-color: #eef1f7;
+            padding: 30px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .left h1 {
+            margin-bottom: 20px;
+        }
+        .balance {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+      .transaction {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+            border-color: #a9a7a7;
+       
+            border-style: dotted;
+        }
+       .pie-chart {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+        .right {
+            width: 50%;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .right h1 {
+            margin-bottom: 20px;
+        }
+        .login-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .login-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-form button:hover {
+            background-color: #0056b3;
+        }
+        .social-login {
+            margin-top: 20px;
+        }
+        .social-login button {
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            display: inline-flex;
+            align-items: center;
+        }
+        .social-login img {
+            width: 20px;
+            margin-right: 10px;
+        }
+        .texto{
+            color: #a9a7a7;
+        }
+        .o{
+            color: #a9a7a7;
+        }
+        .t1{
+            color: #a9a7a7;
+        }
+        .t2{
+            color: rgb(20, 135, 229);
+        }
+        .ultimoTexto{
+            margin-top: 150px;
+            color: #a9a7a7;
+        }
+      .p1{
+        color:#007bff;
+        text-align: right;
+      }
+  .text{
+    color: #a9a7a7;
+  }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="left">
+         
+            <div class="balance">
+                <p><strong>Current Balance</strong></p>
+                <h1>$24,359</h1>
+            </div>
+            <div class="pie-chart">
+                <p>Food</p>
+            </div>
+            <div class="transaction">
+                <p>New transaction</p>
+              <div class="text"> <p>or Upload .xls file</p></div>  
+            </div>
+            <div><h2>Welcome back!</h2>
+            </div>
+            <div class="texto">
+            <p>Start managing your finance faster and better</p>
+        <p>Start managing your finance faster and better</p></div>
+    </div>
+        <div class="right">
+            <h1>Welcome back!</h1>
+            <p>Start managing your finance faster and better</p>
+            <form class="login-form">
+                <input type="email" placeholder="you@example.com" required>
+                <input type="password" placeholder="At least 8 characters" required>
+                <div class="p1"><p>Forgot password?</p></div>
+                <button type="submit">Login</button>
+            </form>
+            <div class="o">
+                <p>---------------------------------- or ------------------------------</p></div>
+            <div class="social-login">
+                <button><img src="https://img.icons8.com/?size=512&id=17949&format=png" alt="Google">Google</button>
+                <button><img src="https://static.vecteezy.com/system/resources/previews/018/930/476/original/facebook-logo-facebook-icon-transparent-free-png.png" alt="Facebook">Facebook</button>
+            </div>
+            <span class="t1">Don´t you have an account?</span><span class="t2">Sign Up</span>
+    <div class="ultimoTexto">
+           <p>2022 ALL RIGHTS RESERVED</p>
+ </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
