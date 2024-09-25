@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f7fb;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 900px;
+    height: 800px;
+}
+
+.left {
+    background-color: #eef1f7;
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 15px; /* Margen de 15px desde la parte superior */
+    left: 50%;
+    transform: translateX(-50%); /* Mantener centrada la imagen */
+}
+
+.logo img {
+    width: 80px; /* Tamaño pequeño del logo */
+    height: auto;
+}
+
+.left h1 {
+    margin-bottom: 20px;
+}
+
+.balance,
+.transaction,
+.pie-chart {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.transaction {
+    border-color: #a9a7a7;
+    border-style: dotted;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.social-login{
+    margin-top: 20px;
+}
+
+.social-login button{
+    background-color: transparent;
+    border: 2px solid black; /* Borde negro redondeado */
+    border-radius: 50%;
+    padding: 0; /* Eliminar margen interno */
+    margin: 0; /* Eliminar margen externo */
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-login img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.right .Imagen img {
+    width: 450px;
+    height: 800px;   
+}
+.ultimo-texto{
+    color: #a9a7a7;
+    font-size: xx-small;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+        position: absolute;
+        bottom: 0; /* Lo coloca en la parte inferior del contenedor */
+        left: 0;
+        width: 100%; /* Para que ocupe todo el ancho del contenedor */
+        text-align: center; /* Opcional: para centrar el texto */
+        padding: 10px; /* Opcional: para agregar espacio alrededor */
+}
+.botones{
+    background-color: #a9a7a7;
+}
+.o{
+    color: #a9a7a7;
+}
