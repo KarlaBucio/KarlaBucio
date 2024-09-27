@@ -1,0 +1,86 @@
+/* Estilos generales */
+p {
+    color: green; /* Color verde para todos los párrafos */
+}
+
+/* Cascada y especificidad */
+p.highlight {
+    color: red; /* Color rojo para los párrafos con clase highlight */
+}
+
+aside p {
+    color: blue !important; /* Color azul para todos los párrafos dentro de aside usando !important */
+}
+
+/* Estilos de encabezados */
+h2, h3 {
+    font-size: 18px; /* Tamaño de fuente de 18px para h2 y h3 */
+}
+
+main p {
+    color: #333; /* Color de texto gris oscuro (#333) para los elementos <p> dentro de main */
+}
+
+/* Selectores de clase e ID */
+#important-info {
+    background-color: #ffffcc; /* Fondo amarillo claro para el artículo con ID important-info */
+}
+
+/* Selectores de pseudo-clases dinámicas */
+a:hover {
+    color: green; /* Color verde cuando el ratón pasa sobre un enlace */
+}
+
+a:active {
+    color: orange; /* Color naranja cuando se hace clic en un enlace */
+}
+
+/* Estilo para elementos que reciben foco */
+input:focus {
+    border: 2px solid blue; /* Borde azul de 2px para campos de entrada en foco */
+}
+
+/* Selectores de pseudo-clases estructurales */
+section p:first-child {
+    margin-top: 20px; /* Margen superior de 20px para el primer párrafo de cada sección */
+}
+
+section p:last-child {
+    background-color: #f0f0f0; /* Fondo gris claro (#f0f0f0) para el último párrafo de cada sección */
+}
+
+/* Selectores combinados */
+.section h2 {
+    color: #0055cc; /* Color azul para h2 dentro de cualquier sección con clase .section */
+}
+
+header > nav {
+    background-color: #eaeaea; /* Fondo claro (#eaeaea) para el menú de navegación */
+}
+
+h2 + p {
+    color: #666; /* Color gris (#666) para el párrafo que sigue inmediatamente a un h2 */
+}
+
+h2 ~ p {
+    font-style: italic; /* Fuente en cursiva para todos los párrafos que siguen a un h2 en la misma sección */
+}
+
+/* Contenedor con ancho, alto y borde */
+.container {
+    width: 400px; /* Ancho de 400px */
+    height: 200px; /* Alto de 200px */
+    border: 2px solid #000; /* Borde sólido de 2px negro */
+}
+
+/* Estilización de imagen */
+img {
+    width: 300px; /* Ancho de 300px */
+    border: 3px solid #333; /* Borde sólido de 3px de color gris oscuro */
+}
+
+/* Estilización de video */
+video {
+    width: 500px; /* Ancho de 500px */
+    height: 280px; /* Altura de 280px */
+}
