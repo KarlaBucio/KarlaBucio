@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    height: 750px;
+}
+.left {
+    padding: 30px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-arrow {
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+}
+
+.login-link {
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #4b7bec;
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+p {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #888;
+    display: block;
+    text-align: left;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+}
+
+.checkmark {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #27ae60;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.password-requirements {
+    text-align: left;
+    list-style-type: none;
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.password-requirements li.valid {
+    color: #27ae60;
+}
+
+.signup-btn {
+    background-color: #4b7bec;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.alternative-signup {
+    margin-top: 20px;
+}
+
+.alternative-signup p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #888;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.google {
+    background-color: #db4437;
+}
+
+.language-selector {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.language-selector img {
+    border-radius: 50%;
+}
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.right .Imagen img {
+    width: 450px;
+    height: 800px;   
+}
+.outer-container {
+    margin: 20px;
+    border: 35px solid purple; 
+    border-radius: 15px; 
+}
