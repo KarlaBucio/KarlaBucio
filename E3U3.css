@@ -1,0 +1,81 @@
+body {
+    background-color: #2b2d33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 15px; /* Esto añade margen en todo el cuerpo */
+    box-sizing: border-box; /* Asegura que el padding se mantenga dentro del viewport */
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 100%; /* Asegura que las tarjetas no se extiendan fuera del viewport */
+}
+
+.card {
+    width: 300px; /* Reducimos el ancho de las tarjetas */
+    height: 150px; /* Reducimos la altura de las tarjetas */
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #3c3e44;
+    color: white;
+}
+
+.card img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 0.5rem; /* Reducimos el padding interno */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.card-content h1 {
+    font-size: 1em; /* Reducimos el tamaño de fuente */
+    margin-bottom: 0.3rem; /* Reducimos el margen */
+}
+
+.status-container {
+    display: flex;
+    align-items: center;
+}
+
+.status-container .circle {
+    height: 6px; /* Hacemos más pequeño el círculo */
+    width: 6px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status-container .alive {
+    background-color: #55cc44;
+}
+
+.status-container .dead {
+    background-color: #d63d2e;
+}
+
+.status-container .unknown {
+    background-color: gray;
+}
+
+.card-content p {
+    margin: 0.3rem 0; /* Reducimos los márgenes entre los párrafos */
+}
+
+.card-content .gray {
+    color: #9c9c9c;
+    font-size: 0.85em; /* Reducimos ligeramente el tamaño de los textos grises */
+}
