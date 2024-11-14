@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        font-family: arial;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .todo-container{
+        background-color: #fff;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        width: 400px;
+    }
+    h1{
+        text-align: center;
+        color: #333;
+    }
+    .input-container{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    }
+    input[type="text"]{
+        width: 70%;
+        padding: 10px;
+        border: 1px solid#ddd;
+        border-radius: 4px;
+    }
+    .input-container> button{
+        border: none;
+        background-color: green;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .input-container>button:hover{
+        background-color: green;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    li{
+        background-color: #fbfbfb;
+        padding: 0;
+
+margin-bottom: 0.5rem;
+border-radius: 4px;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+li.completed{
+    text-decoration: line-through;
+    background-color: #d4edda;
+}
+li> button{
+    border: none;
+    background-color: red;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 5px;
+}
+li>button:hover{
+    background-color: #9b0202;
+    cursor: pointer;
+}
+li.completed>span{
+    text-decoration: line-through;
+    background-color: #d4edda;
+}
+li.completed{
+background-color: #d4edda;
+}
+</style>
+
+<body>
+    <div class="todo-container">
+        <h1>Lista de tareas</h1>
+        <div class="input-container">
+            <input type="text" id="todo-input">
+            <button id="add-btn">Agregar tarea</button>
+        </div>
+        <ul class="todo-list" id="todo-list">
+        <li>
+            <span>Tarea 1</span>
+            <button>Eliminar</button>
+        </li>
+        </ul>
+    </div>
+    <script src="paracticaU3.js"></script>
+</body>
+</html>
